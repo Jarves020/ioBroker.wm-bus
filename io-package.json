@@ -1,8 +1,12 @@
 {
     "common": {
         "name": "wm-bus",
-        "version": "0.3.1",
+        "version": "0.3.2",
         "new": {
+            "0.3.2": {
+                "en": "Baud Rate Change for nanoCUL",
+                "de": "Baud Rate für nanoCUL angepasst"
+            },
             "0.3.1": {
                 "en": "serial port communication fixed for cul (serialport 6.1.0, ReadLine parser)",
                 "de": "Serialport Kommunikation für CUL repariert (serialport 6.1.0, ReadLine parser)"
