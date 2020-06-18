@@ -267,7 +267,7 @@ var CulCom = function (options, callback) {
 };
 
 CulCom.prototype.prepare = function(spOptions) {
-    spOptions.baudRate = 9600;
+    spOptions.baudRate = 38400;
     this.parser = new serialPortModule.parsers.Readline({delimiter: '\r\n'});
 };
 
